@@ -58,13 +58,13 @@
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id3">
         <rect class="BoundingBox" stroke="none" fill="none" x="329" y="329" width="1889" height="1888"/>
-        <path fill="none" stroke="rgb(0,0,0)" d="M 1408,1407 L 599,2215 330,1946 1946,330 2216,599 1408,1407 Z"/>
+        <path fill="#000000" stroke="rgb(0,0,0)" d="M 1408,1407 L 599,2215 330,1946 1946,330 2216,599 1408,1407 Z"/>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id4">
         <rect class="BoundingBox" stroke="none" fill="none" x="329" y="329" width="1888" height="1889"/>
-        <path fill="none" stroke="rgb(0,0,0)" d="M 1138,1408 L 330,599 599,330 2215,1946 1946,2216 1138,1408 Z"/>
+        <path fill="#000000" stroke="rgb(0,0,0)" d="M 1138,1408 L 330,599 599,330 2215,1946 1946,2216 1138,1408 Z"/>
        </g>
       </g>
      </g>
