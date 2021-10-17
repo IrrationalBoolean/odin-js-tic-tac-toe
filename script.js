@@ -2,15 +2,19 @@ const board = document.querySelector(".gameboard")
 const resetButton = document.querySelector("#reset")
 
 const gameBoard =(() => {
-  let player = 1
+  let player = 0
   let played = []
+  let board = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
   let changeClass = (square) => {
     if (!(played.includes(square.dataset.index))){
-    console.log(square.childNodes[0])
-    square.childNodes[0].src = player % 2 ? 'cross.svg' : 'circle.svg'
+    const img = square.childNodes[0]
+    img.src = player % 2 == 0 ? 'cross.svg' : 'circle.svg'
+    img.classList.add(player % 2 == 0 ? "red" : "blue")
     played.push(square.dataset.index)
+    board[square.dataset.index] = player % 2 == 0 ? "X" : "O"
     player++
+    console.log(board)
     }
   }
 

@@ -19,7 +19,10 @@ h1 {
   margin: 5vmin 0 0 0;
   width: 15vmin;
   height: 5vmin;
-  font-size: 4vmin;
+  font-size: 3.5vmin;
+  background-color: white;
+  border: 3px solid #CCC;
+  border-radius: 25px;
 }
 
 .gameboard {
@@ -28,7 +31,7 @@ h1 {
   grid-gap: 10px;
   width: 66vmin;
   height: 66vmin;
-  background-color: black;
+  background-color: #F9F9F9;
 }
 
 .square {
@@ -41,7 +44,13 @@ h1 {
 }
 
 img {
-  width: 100%;
-  filter: drop-shadow(2vmin 2vmin 1vmin rgb(0 0 0 / 0.5));
+  width: 80%;
 }
 
+.red {
+  filter: drop-shadow(2vmin 2vmin .8vmin rgb(20 0 0 / 0.5));
+}
+
+.blue {
+  filter: drop-shadow(2vmin 2vmin .8vmin rgb(0 0 20 / 0.5));
+}
