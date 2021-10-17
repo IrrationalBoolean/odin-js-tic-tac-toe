@@ -20,7 +20,7 @@ const gameBoard =(() => {
 
   let reset = () => {
     played = []
-    player = 1
+    player = 0
     const squares = document.querySelectorAll(".square")
     for (i=0; i<squares.length; i++){
       squares[i].childNodes[0].src ='blank.svg'
