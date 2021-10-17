@@ -42,5 +42,6 @@ h1 {
 
 img {
   width: 100%;
+  filter: drop-shadow(2vmin 2vmin 1vmin rgb(0 0 0 / 0.5));
 }
 
